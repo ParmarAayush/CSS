@@ -1,0 +1,15 @@
+Day 1 : 
+    [ using % avoid to set Height ]
+        - set * means all element apply box-sizing: border-box;
+        - in the example code we use Height becaus we don't have content 
+
+    [% on the child ]
+        - don't set height to childe element 
+        - dont't set width but it's required in some situation
+    
+    [ why it's good idea to avoid height ]
+        - if required more space use padding ( set to paretn element ? )
+        - suggest to use em unit rather then %
+
+    [ Challenge 01 ]
+        - aloways use margin after width if set

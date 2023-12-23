@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.parent {
+    background-color: blanchedalmond;
+    padding: 50px;
+
+    margin: 0 auto;
+    width: 80%; 
+}
+
+.child {
+    background-color: blueviolet;
+
+    /*avoid to use height but don't have content so use. 
+    now observe if use fix height then it's overflow in small device, 
+    remove height its work perfectly */
+    /* height: 250px;  */
+
+     width: 60%; /* take 60 % width from parent */
+}

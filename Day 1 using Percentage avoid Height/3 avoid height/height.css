@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.parent {
+    background-color: blanchedalmond;
+    padding: 50px;
+
+    margin: 0 auto;
+    width: 80%; 
+}
+
+.child {
+    background-color: blueviolet;
+    /* height: 250px;  */
+
+    /* need more Background use padding insted of height */
+    padding: 5em; /* 16 x 5 = 80px */
+    /* how you know that 1 em is equal to 16px its depends on font-size of its container default font size is 16px */
+
+}

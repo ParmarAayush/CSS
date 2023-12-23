@@ -1,0 +1,10 @@
+{
+    "Day 1" : {
+     "_comment":"uisng percentage and avoiding to set heights",
+     "Percentage vs Fixed Width" : "use % unit it reduce line of code",
+     "Percentage on child" : "relationship with parent and child percentages to width",
+     "Good idea to avoid height" : "some time height provide background, so insted of height use padding it's work perfectly",
+     "em and rem" : "https://youtu.be/_-aDOAMmDHI",
+     "Challenge 1" : ""
+    }
+}
