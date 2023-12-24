@@ -11,5 +11,12 @@
         "Course suggestion" : "Rachel Andrew Course on css",
         "Relative unit" : "em is adaptive in nature and rem is based on HTML",
         "Why you shouldn't set font-sizes using em" : "for margin and padding use em for font size use rem"
+    },
+    "Day 3" : {
+        "Challenge 1" : "Solution",
+        "Adding Max-width" : "prevent or stop streching after some point"
+    }, 
+    "Day 4" : {
+        "viewport units" : "vh and vw is usefull. another are not sugggest before good practices and tests"
     }
 }

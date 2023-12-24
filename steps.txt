@@ -3,7 +3,7 @@ Day 1 :
         - set * means all element apply box-sizing: border-box;
         - in the example code we use Height becaus we don't have content 
 
-    [% on the child ]
+    [ % on the child ]
         - don't set height to childe element 
         - dont't set width but it's required in some situation
     
@@ -28,3 +28,24 @@ Day 2 : Getting familiar with relative unit
         - for margin and padding use em beacuse its shrink with that element font size 
         - for font size use rem whcih depends upon html not body
         
+Day 3 : Max-width   
+    [ Challenge 1 solution ]
+
+    [ adding in a max-width ]
+        - after some limtes of width website makes awkward experience 
+        - some time site create side scrolling if we drop below that width 
+          solution is to always set width in % 
+        
+        - when we set max-width its stop growing afte some set point so its give equally prview in large screen device 
+          and prevent streching from one side 
+        - ( is important to set max-width after width ? )
+    
+    [ Challenge 02 ]
+
+Day 4 : Extra curricular Activity
+    [ CSS unit : vh, vw vmin, vmax ]
+        - vh stands for viewport height but its create problem with smaller device 
+          content oveflow so fix it using media query 
+          
+        - vw stands for viewport width same its take width equal to viewport
+        - vw, vh is greater than %, percentage shrink with parent element 
