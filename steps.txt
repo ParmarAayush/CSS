@@ -13,3 +13,18 @@ Day 1 :
 
     [ Challenge 01 ]
         - aloways use margin after width if set
+
+
+Day 2 : Getting familiar with relative unit 
+    [ relative unit ]
+        - em take font-size from parent element font size
+        - em use for any other properties(padding, margin)
+          measure size based on self font-size (adaptive nature)
+        - use-full for buttons  
+
+        - rem is truely based on html not body
+
+    [ Why you shouldn't set font-sizes using em ]
+        - for margin and padding use em beacuse its shrink with that element font size 
+        - for font size use rem whcih depends upon html not body
+        

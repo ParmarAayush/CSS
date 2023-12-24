@@ -6,5 +6,10 @@
      "Good idea to avoid height" : "some time height provide background, so insted of height use padding it's work perfectly",
      "em and rem" : "https://youtu.be/_-aDOAMmDHI",
      "Challenge 1" : ""
+    },
+    "Day 2" : {
+        "Course suggestion" : "Rachel Andrew Course on css",
+        "Relative unit" : "em is adaptive in nature and rem is based on HTML",
+        "Why you shouldn't set font-sizes using em" : "for margin and padding use em for font size use rem"
     }
 }
