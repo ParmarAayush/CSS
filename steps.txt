@@ -48,4 +48,20 @@ Day 4 : Extra curricular Activity
           content oveflow so fix it using media query 
           
         - vw stands for viewport width same its take width equal to viewport
-        - vw, vh is greater than %, percentage shrink with parent element 
+        - vw, vh is greater than %, percentage shrink with parent element
+
+Day 5 : 
+    [ font-face - self study ]
+    [ source : https://www.youtube.com/watch?v=zK-yy6C2Nck&ab_channel=KevinPowell ]
+    
+        - download file in ttf formate and extract into assets/fonts
+        - after extract file use "https://www.fontsquirrel.com/tools/webfont-generator"
+          for decrease file size and other customization
+        - download and use 
+
+Day 6 :
+    - em is usefull for buttons because we set font-size of button
+      em changes based on font-size(in rem) of that elements 
+
+    - set height width using padding along with em units now when 
+      bigger or smaller screen then change font size and button automatically shrink with it 

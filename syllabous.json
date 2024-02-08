@@ -18,5 +18,11 @@
     }, 
     "Day 4" : {
         "viewport units" : "vh and vw is usefull. another are not sugggest before good practices and tests"
+    },
+    "Day 5" : {
+        "Challenge 2" : "self-study about font-face, prevent site from load time"
+    },
+    "Day 6" : {
+        "why you should't use em for font-size" : ""
     }
 }
