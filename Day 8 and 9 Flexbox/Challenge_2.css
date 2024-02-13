@@ -1,0 +1,125 @@
+@import url("../assets/fonts/font.css");
+
+/* Gloabal Elements */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+/* Short-Hand-class */
+.white {
+    color: #fff;
+}
+
+.df {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Typography */
+
+h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 10px 20px;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    padding: 10px 20px;
+}
+
+article h2 {
+    color: #136C72;
+    padding: 100px 0px 60px 20px;
+}
+
+p {
+    font-size: 1.3125rem;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+
+p+p {
+    margin-top: 20px;
+}
+
+/* Div & Semantic  */
+input[type=submit] {
+
+    padding: 0.9em 1.5em;
+    margin: 2em 0.8em;
+    border: none;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: #38CFD9;
+    color: #23424a;
+}
+
+.hero {
+    background-color: #23424A;
+}
+
+.wrapper {
+    width: 60%;
+    max-width: 72.875rem;
+    margin: 0 auto;
+    padding: 70px 0px;
+}
+
+.hero_text {
+    width: 60%;
+    max-width: 42.1875rem;
+}
+
+.img {
+    width: 35%;
+}
+
+
+section {
+    width: 60%;
+    max-width: 72.875rem;
+    margin: 0 auto;
+}
+
+article {
+    width: 60%;
+    max-width: 42.1875rem;
+}
+
+aside {
+    width: 35%;
+    text-align: center;
+    background-color: #136C72;
+    margin-top: 60px;
+}
+
+aside .row {
+    width: 100%;
+    padding: 30px 10px;
+}
+
+@media (max-width: 1040px) {
+    .wrapper
+    {
+        width: 90%;
+    }
+    section
+    {
+        width: 90%;
+    }
+}

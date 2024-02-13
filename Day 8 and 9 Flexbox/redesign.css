@@ -1,0 +1,91 @@
+@import url("../assets/fonts/font.css");
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto";
+}
+.row
+{
+    display: flex;
+    justify-content: space-between;
+}
+.hero
+{
+    background-color: #23424a;
+    padding: 3em 0;
+}
+
+.container
+{
+    width: 65%;
+    max-width: 72.875rem;
+    margin: 0 auto;
+    color: white;
+    /* border: 2px solid red; */
+}
+.content
+{
+    width: 62%;
+    /* background-color: yellow; */
+}
+.container img
+{
+    width: 32%;
+    max-width: 100%;
+    align-self: flex-start;
+    /* border: 3px solid goldenrod; */
+}
+h1
+{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-top: 0;
+}
+
+p{
+    font-weight: 400;
+    font-size: 1.3125rem;
+}
+input[type=submit]{
+
+    padding: 0.9em 1.5em;
+    margin: 2em 0em;
+    border: none;
+    font-size: 1.3125rem;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: #38CFD9;
+    color: #23424a;
+}
+
+
+/* @media (max-width: 1040px) {
+
+    .container 
+    {
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+        width: 100%;
+    }
+    .col + .col
+    {
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 2560px) {
+    html{
+        font-size: 32px;
+    }
+    .container
+    {
+        width: 80%;
+    }
+} */
