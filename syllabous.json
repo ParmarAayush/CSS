@@ -23,6 +23,22 @@
         "Challenge 2" : "self-study about font-face, prevent site from load time"
     },
     "Day 6" : {
-        "why you should't use em for font-size" : ""
+        "why you should't use em for font-size" : "because its compounding"
+    },
+    "Day 7" : {
+        "An Introduction To Flexbox" : "give equal width to direct child of flex container to set 100% width to the children",
+        "Adding space in between column" : "using margin inside combinator instade of gap"
+    },
+    "Day 8" : {
+        "Challenge 1 in Week 2 " : ""
+    },
+    "Day 9" : {
+        "_comment" : "deeper dive into flexbox",
+        "Challenge 1 in week 2 solution" : "set comman class name for the comman design",
+        "Reducing the amount html needed" : "try to set container row > col insted of container > row > col",
+        "Adding a hero image" : "all element strech inside flexbox",
+        "Column width and flexbox" : "instade of margin use Justify content use",
+        "Ensuring the image is responsive" : "use max-width:100%; to prevent from overflow",
+        "Flexbox Challenge 2 in week 2" : "Redesign and add one col three row right side "
     }
-}
+}   

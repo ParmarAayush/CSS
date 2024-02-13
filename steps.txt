@@ -65,3 +65,36 @@ Day 6 :
 
     - set height width using padding along with em units now when 
       bigger or smaller screen then change font size and button automatically shrink with it 
+
+Day 7 :
+    - solution files of Challenge 3
+
+Day 8 :
+  [Check Properties supported Browser - https://caniuse.com/]
+
+    - in flexbox direct children element take minimum possible size(means content fit)
+      divde equall width give them 100% by default its dependse on content
+
+    - avoid to use gap beacuse it's not supported to all browser 
+      instade of gap use combinatores like (.col + .col) select element who have
+      adjacent sibling 
+
+Day 9 : 
+
+    - inside flexbox all the element shrink to the equal height
+      prevent inside element from streching wraping with div now div streching but inside element not
+
+    - another option to prevent element from streching is to give them align-self: flex-start;
+
+    - Div > Div 1
+          > Div 2 > img tag 
+
+          in this case we applied display-flex to the Div then image is shrink because it's not children of flexbox 
+          set max-width to 100%
+    
+    - Challenge 2 i code first html then load custom font 
+      then design some global classes like display-flex and color
+      then design typography and then divs 
+
+    - design without margine padding and set proper layout and then
+      set margin and padding 
