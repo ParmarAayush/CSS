@@ -1,17 +1,25 @@
 @font-face {
-    font-family: "Roboto";
-    font-weight: 400;
-    src: url(./Roboto-Regular.ttf);
+    font-family: "Roboto-regular";
+    src: url('./Roboto-Regular.ttf') format('ttf');
 }
 
 @font-face {
     font-family: "Roboto";
-    font-weight: 700;
-    src: url(./Roboto-Medium.ttf);
+    src: url('./Roboto-Medium.ttf') format('ttf');
 }
-
 @font-face {
-    font-family: "Roboto";
-    font-weight: 900;
-    src: url(./Roboto-Bold.ttf);
+    font-family: "Roboto-light";
+    src: url("./Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "Roboto-cb";
+    src: url('./RobotoCondensed-Bold.ttf') format('ttf');
+}
+@font-face {
+    font-family: "Playfair Display", serif;
+    src: url('./PlayfairDisplay-Black.otf') format('otf');
+}
+@font-face {
+    font-family: "s";
+    src: url("../fonts2/Sixtyfour-Regular.ttf");
 }
