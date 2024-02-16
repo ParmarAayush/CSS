@@ -56,6 +56,7 @@ Day 5 :
     
         - download file in ttf formate and extract into assets/fonts
         - after extract file use "https://www.fontsquirrel.com/tools/webfont-generator"
+        - alternative site and user-friendly "https://transfonter.org/"
           for decrease file size and other customization
         - download and use 
 
@@ -98,3 +99,37 @@ Day 9 :
 
     - design without margine padding and set proper layout and then
       set margin and padding 
+
+Day 10 : 
+
+    - for flex box items 
+          flex-grow:; - take n prority if 1 then particular item take all the available space
+                        if any item have 2 it take more avialable space than 2
+          flex-shrink:; - same as grow but it's not for growth it's for shrink
+          and flex-basis:; - take px and if space avialable then set that size to items
+
+    - short hand for grow shrink and basis is flex: grow shrink basis;
+
+    - in flex div we use align-items and for particular item we use align-self:;
+      for example in dive there are three items we use align-item: center;
+      but we want last item center then use for particular item align-slef:;
+
+    - order for set order of items 
+
+Day 11 : 
+
+    - If you know the meaing of all symentic tag than it's good to use
+      not know then use div instade of semntic html element 
+
+Day 12 : 
+
+    - add class to last two li element and css to margin-left:auto;
+    - seprate with two ul and apply display flex to parent and justify-content:space-betwwn;
+
+    [ problem in menu bar ]
+    - when we add logo other element streching upside now we know that 
+      justify-content allow to excess x axsis and align-items work with cross axsis, so center cross axsis using align-item
+    
+    - if it not work then inspect element and try to put align-self:center;
+    
+    
