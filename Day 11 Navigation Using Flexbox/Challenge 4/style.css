@@ -1,0 +1,126 @@
+@import url("./fonts/fonts.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* typography */
+h1 {
+    width: 70%;
+    text-align: center;
+    font-size: 60px;
+    color: #824936;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #824936;
+    padding: 20px 0;
+    font-family: 'Playfair Display';
+}
+
+.text h2 {
+    color: #F3EED9;
+    font-family: 'Playfair Display';
+    
+}
+
+p {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 21px;
+    padding: 20px 0px;
+
+}
+
+.text p {
+    color: #fff;
+}
+
+.p-special {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1ch;
+    font-size: 18px;
+}
+
+/* short hands */
+.d-flex {
+    display: flex;
+}
+
+.f-row {
+    flex-direction: row;
+}
+
+.f-col {
+    flex-direction: column;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.as-c {
+    align-self: center;
+}
+
+.wrapper {
+    width: 70%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 100px 0px;
+}
+
+img {
+    width: 100%;
+}
+
+/* divs & semantic element */
+.hero {
+    background-color: #F3EED9;
+    padding: 100px 0px;
+}
+
+.intro {
+    background-color: #fff;
+}
+
+.color1 {
+    background-color: #222C2A;
+}
+
+.color2 {
+    background-color: #824936;
+}
+
+.text {
+    width: 47%;
+}
+
+.img {
+    width: 47%;
+}
