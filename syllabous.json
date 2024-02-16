@@ -40,5 +40,25 @@
         "Column width and flexbox" : "instade of margin use Justify content use",
         "Ensuring the image is responsive" : "use max-width:100%; to prevent from overflow",
         "Flexbox Challenge 2 in week 2" : "Redesign and add one col three row right side "
+    },
+    "Day 10" : {
+        "_comment" : "Extra Youtube Video",
+        "Source" :"https://www.youtube.com/playlist?list=PL4-IK0AVhVjMSb9c06AjRlTpvxL3otpUd",
+        "Part 1" : "All simple properties for flexbox",
+        "Part 2" : "All for flex-box items, shrink, grow and basis and order",
+        "Part 3" : "Design Layout"
+    },
+    "Day 11" : {
+        "_comment" : "Flex Box For Navigation",
+        "Flexbox Challenge 2 Solution" : "tips for sementic html element",
+        "Flex Box Challange 3" : "set menu right side"
+    },
+    "Day 12" : {
+        "_comment" : "Getting fancy with navigation",
+        "Fancier up our navigation with flexbox" : "push last two menu items to the right",
+        "The Logo" : "File in svg",
+        "More Improvement To The Navigation" : "add logo and problem occure element strech upside",
+        "logo-menubar-menubar" : "centering thingd easy",
+        "Challange 4" : "learn more about how to load custom fonts"
     }
 }   
