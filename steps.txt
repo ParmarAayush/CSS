@@ -8,7 +8,7 @@ Day 1 :
         - dont't set width but it's required in some situation
     
     [ why it's good idea to avoid height ]
-        - if required more space use padding ( set to paretn element ? )
+        - if required more space use padding ( set to parent element ? )
         - suggest to use em unit rather then %
 
     [ Challenge 01 ]
@@ -71,7 +71,7 @@ Day 7 :
     - solution files of Challenge 3
 
 Day 8 :
-  [Check Properties supported Browser - https://caniuse.com/]
+  [ Check Properties supported Browser - https://caniuse.com/ ]
 
     - in flexbox direct children element take minimum possible size(means content fit)
       divde equall width give them 100% by default its dependse on content
@@ -126,10 +126,53 @@ Day 12 :
     - add class to last two li element and css to margin-left:auto;
     - seprate with two ul and apply display flex to parent and justify-content:space-betwwn;
 
-    [ problem in menu bar ]
+  [ problem in menu bar ]
     - when we add logo other element streching upside now we know that 
       justify-content allow to excess x axsis and align-items work with cross axsis, so center cross axsis using align-item
     
     - if it not work then inspect element and try to put align-self:center;
     
+Day 13 and 14: 
+
+Day 15 :
+
+  Syntax :
+    - @media(size){} 
+    - @media(size) and (size){}
+
+  Example 1:
+    - size take min-width : design applied to the bigger than given size
+    - @media(min-width:600px) : 600px or bigger
+
+  Example 2:
+    - size take max-width : design applied to the smaller tha given size 
+    - @media(max-width:900px) : 900px or smaller
+  
+  Example 3:
+    - using and operater, style applied between to the given size
+    - @media(min-width:600px) and (max-width:900px) : style applied between 600px to 900px
+
+Day 16 :
+
+  - when layout start to failed and nedd changes that's breakpoint.
+    at point change your display behaviour 
+
+Day 17 :
+
+    - set our site width is equal to view port-width
+      (comment meta and observe when we decrease width its like zoom out tings gets smaller)
+
+    - scale that set default 1.0 means normal and it represent zoom-in zoom-out value
+
+Day 18 :
+
+    - try to put always element inside div 
+    - style mobile device first becaus you dont design much only set typography margin or padding
     
+    - use line height for big heading becaus it take more white space betwwen line when line break
+    - give priority based on numbers of user if mobile user then design mobile first
+      if desktop is prority then desktop first
+
+    - use min-height to prevent content oveflow if further add content
+      and use display flex for centering when content stuck to the top
+
