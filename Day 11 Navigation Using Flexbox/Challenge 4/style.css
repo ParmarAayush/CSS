@@ -13,13 +13,13 @@ body {
 
 /* typography */
 h1 {
-    width: 70%;
-    text-align: center;
+    /* width: 70%; */
     font-size: 60px;
+    text-align: center;
     color: #824936;
     font-family: 'Playfair Display';
-    font-weight: bold;
-    font-style: normal;
+    font-weight: 900;
+    line-height: 1.2;
     
 }
 
@@ -51,11 +51,12 @@ p {
 }
 
 .p-special {
+    text-align: center;
     font-family: 'Roboto';
     font-weight: 300;
     font-style: normal;
     text-transform: uppercase;
-    letter-spacing: 1ch;
+    letter-spacing: 3px;
     font-size: 18px;
 }
 
