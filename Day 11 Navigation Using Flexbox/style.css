@@ -73,7 +73,7 @@ h1 {
 
 header {
     background: #136c72;
-    padding: .5em 0;
+    padding: .5em 0;    
 }
 .nav
 {
@@ -148,4 +148,23 @@ a
     text-align: center;
     color: #fff;
     background-color: #136c72;
+}
+
+@media (max-width: 600px)
+{
+    .row
+    {
+        display: block;
+    }
+
+    .hero__text,
+    .hero__img,
+    .primary-content,
+    .sidebar {
+        width: 100%;
+    }
+
+    .hero__img {
+        margin-top: 2em;
+    }
 }
