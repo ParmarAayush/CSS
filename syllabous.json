@@ -51,7 +51,7 @@
     "Day 11" : {
         "_comment" : "Flex Box For Navigation",
         "Flexbox Challenge 2 Solution" : "tips for sementic html element",
-        "Flex Box Challange 3" : "set menu right side"
+        "Flex Box Challenge 3" : "set menu right side"
     },
     "Day 12" : {
         "_comment" : "Getting fancy with navigation",
@@ -59,6 +59,32 @@
         "The Logo" : "File in svg",
         "More Improvement To The Navigation" : "add logo and problem occure element strech upside",
         "logo-menubar-menubar" : "centering thingd easy",
-        "Challange 4" : "learn more about how to load custom fonts"
+        "Challenge 4" : "learn more about how to load custom fonts"
+    },
+    "Day 13/14" : {
+        "_comment" : "Break Time",
+        "Youtube Link min(), max(), clamp()" : "https://www.youtube.com/watch?v=U9VF-4euyRo"
+    },
+    "Day 15" : {
+        "_comment" : "Media Query",
+        "Media Query basics" : "screen type, min-width and max-width inside it",
+        "Adding One to Our Layout" : ""
+    },
+    "Day 16" : {
+        "_comment" : "What is breakpoints to use ?",
+        "How To Decide What Break Point TO Use ?" : "try to use minimum numbers of breakpoints used",
+        "The 100% correct way to do CSS breakpoints" : "https://www.freecodecamp.org/news/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862/"
+    },
+    "Day 17" : {
+        "_comment" : "The Meta Viewport Tag",
+        "Meta tag" : "that set our width to device width and set scal point"
+    },
+    "Day 18" : {
+        "_comment" : "Challenge Solution and Mobile First",
+        "Challenge 4" : "Solution-Structure",
+        "Challenge 4 Mobile First" : "use line height for bigger text",
+        "Challenge 4 Adding Media Queries" : "Design for 800px or bigger",
+        "Challenge 4 Looking at min-height" : "use min-height to prevent overflow when add other content",
+        "Challenge 4 Finished File" : "zip file"
     }
 }   
