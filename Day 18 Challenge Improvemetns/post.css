@@ -1,0 +1,84 @@
+@import url("../Day 11 Navigation Using Flexbox/Challenge 4/fonts/fonts.css");
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* typography */
+
+h1{
+    font-family: 'Playfair Display';
+    font-weight: 900;
+    font-size: 3.25rem;
+    line-height: 1.1;
+    color: #824936;
+    text-align: center;
+}
+
+h2 {
+    font-family: "Roboto";
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.title h2{
+    
+    color: #824936;
+}
+.color1 h2, .color2 h2
+{
+    color: #F3EED9;
+}
+
+p{
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 1.3125rem;
+}
+
+.p-special
+{
+    margin: 0;
+    font-size: 1.125rem;
+    font-weight: 300;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* comman elements */
+.d-flex{
+    display: flex; /* row */
+}
+.col{
+    flex-direction: column;
+}
+img{
+    max-width: 100%;
+}
+section{
+    padding: 20px;
+}
+
+/* sementics and divs */
+
+.intro{
+    background-color: #F3EED9;
+}
+.color1{
+    background-color: #222C2A;
+    color: #fff;
+}
+.color2{
+    background-color: #824936;
+    color: #fff;
+}
+
+@media (min-width:600px)
+{
+
+}
